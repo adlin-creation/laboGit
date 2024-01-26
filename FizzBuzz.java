@@ -1,7 +1,7 @@
 public class FizzBuzz {
     public static void main(String[] args) {
         for(int i= 0; i<= 200; i++){
-            if(i % 3 == 0 || i % 5 == 0 ){
+            if(i % 3 == 0 && i % 5 == 0 ){
                 System.out.println("FizzBuzz");
 
             }else if (i % 3 == 0){
@@ -11,7 +11,7 @@ public class FizzBuzz {
                 System.out.println("Buzz");
 
             }else {
-                System.out.println("Invalide");
+                System.out.println(i+ " ");
             }
         }
     }
